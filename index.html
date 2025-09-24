@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineVerse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <header>
+        <h1>CineVerse</h1>
+    </header>
+
+    <main>
+        <section id="schedule-view">
+            <h2>Weekly Showtimes</h2>
+            <div id="schedule-grid">
+                </div>
+        </section>
+
+        <section id="movie-details" class="hidden">
+            <button id="back-to-schedule">Back to Schedule</button>
+            <div class="details-container">
+                <img id="movie-poster" src="" alt="Movie Poster">
+                <div class="details-content">
+                    <h2 id="movie-title"></h2>
+                    <p id="movie-summary"></p>
+                    <p><strong>Rating:</strong> <span id="movie-rating"></span></p>
+                    <div id="showtime-options">
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking-view" class="hidden">
+            <h2 id="booking-title"></h2>
+            <div id="screen"></div>
+            <h3>Select Your Seats</h3>
+            <div id="seating-chart">
+                </div>
+            <div class="booking-summary">
+                <p>Selected Seats: <span id="selected-seats-count">0</span></p>
+                <p>Total Price: $<span id="total-price">0.00</span></p>
+                <button id="confirm-booking" class="disabled">Confirm Booking</button>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 CineVerse</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
