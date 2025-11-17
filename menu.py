@@ -1,4 +1,4 @@
-print("BENITAH'S HOTEL")
+print("SAM'S HOTEL")
 def menu():
     print("Breakfast")
     print("Lunch")
@@ -50,4 +50,5 @@ def main():
        except ValueError:
         print("Invalid input. Please enter a number between 1 and 3.")
 if __name__ == "__main__":
+
         main()
